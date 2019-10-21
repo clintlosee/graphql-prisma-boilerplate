@@ -1,0 +1,102 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#682b03",
+    "titleBar.activeForeground": "#FFF",
+    "titleBar.inactiveForeground": "#FFFFFFCC",
+    "titleBar.activeBackground": "#ff6600",
+    "titleBar.inactiveBackground": "#ff4400CC"
+  },
+
+  // ===
+  // General Auto Formatting
+  // ===
+
+  // Set the default
+  // "editor.formatOnSave": false,
+  // Enable per-language
+  // "[javascript], [vue]": {
+  //     "editor.formatOnSave": true
+  // },
+
+  // ===
+  // Spacing
+  // ===
+
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": true,
+  "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+
+  // ===
+  // Files
+  // ===
+
+  "files.exclude": {
+    "**/*.log": true,
+    "**/*.log*": true,
+    "**/dist": true,
+    "**/coverage": true
+  },
+  "files.associations": {
+    ".markdownlintrc": "jsonc"
+  },
+
+  // ===
+  // Event Triggers
+  // ===
+
+  // "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.run": "onSave",
+  "eslint.validate": [
+    { "language": "javascript", "autoFix": true },
+    { "language": "javascriptreact", "autoFix": true },
+    { "language": "vue", "autoFix": true },
+    { "language": "vue-html", "autoFix": true },
+    { "language": "html", "autoFix": true }
+  ],
+  "vetur.completion.useScaffoldSnippets": false,
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+
+  // ===
+  // HTML
+  // ===
+
+  "html.format.enable": false,
+  "vetur.validation.template": false,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "vue-html": "html"
+  },
+
+  // ===
+  // JS(ON)
+  // ===
+
+  // "jest.autoEnable": false, // enable if using jest
+  // "jest.enableCodeLens": false, // enable if using jest
+  "javascript.format.enable": false,
+  "json.format.enable": false,
+  "vetur.validation.script": false,
+
+  // ===
+  // CSS
+  // ===
+
+  // "stylelint.enable": true, // Enable if ever using stylelint
+  "css.validate": false,
+  "scss.validate": false,
+  "vetur.validation.style": false,
+
+  // ===
+  // MARKDOWN
+  // ===
+
+  "[markdown]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80
+  }
+}
